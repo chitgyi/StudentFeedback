@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/student_login_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="5dp"
+        app:contentPadding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_feedback"
+                android:tint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/student_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Welcome Student Login. Please login to give feedback"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <ScrollView
+        android:padding="10dp"
+        android:background="@drawable/gradient_bg"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:gravity="center_horizontal">
+                <LinearLayout android:orientation="vertical">
+                    <TextView
+                        android:layout_marginBottom="3dp"
+                        android:text="Select Year"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/spinner_bg"
+                        android:layout_height="wrap_content">
+                        <Spinner
+                            android:id="@+id/year"
+                            android:padding="10dp"
+                            android:autofillHints="Select Year"
+                            android:textColor="#fff"
+                            android:entries="@array/years"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow android:gravity="center_horizontal" android:layout_marginTop="10dp">
+                <LinearLayout android:orientation="vertical">
+                    <TextView
+                        android:layout_marginBottom="3dp"
+                        android:text="Select Major"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/spinner_bg"
+                        android:layout_height="wrap_content">
+                        <Spinner
+                            android:id="@+id/major"
+                            android:padding="10dp"
+                            android:autofillHints="Select Year"
+                            android:textColor="#fff"
+                            android:entries="@array/majors"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp" android:gravity="center_horizontal">
+                <CheckBox
+                    android:id="@+id/remember_major"
+                    android:buttonTint="#fff"
+                    android:textColor="#fff"
+                    android:text="Remember my choice"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal" android:layout_marginTop="20dp">
+                <Button
+                    android:id="@+id/stu_next"
+                    android:textAllCaps="false"
+                    android:text="Ok"
+                    android:textColor="#fff"
+                    android:background="@drawable/send_btn"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

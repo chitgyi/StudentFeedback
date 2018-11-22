@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="feedback.student.com.studentfeedback.AboutActivity">
+
+    <ImageView
+        android:src="@drawable/tumtla"
+        android:layout_width="150dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:ellipsize="marquee"
+        android:text="This application is developed by IV-IT Group-II Students." />
+    <TextView
+        android:onClick="callPh"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="Contact us : 09978032840"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

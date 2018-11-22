@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg2"
+    android:padding="8dp"
+    android:scrollbars="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:background="@drawable/rectangle_hole">
+
+            <LinearLayout android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/option1"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option1"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/option1_gp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/option1_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/good"
+                        android:textColor="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/option1_excellent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/excellent"
+                        android:textColor="#4ff115" />
+
+                    <RadioButton
+                        android:id="@+id/option1_bad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/bad"
+                        android:textColor="#ffb92d" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_hole">
+
+            <LinearLayout android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/option2"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option2"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/option2_gp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/option2_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/good"
+                        android:textColor="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/option2_excellent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/excellent"
+                        android:textColor="#4ff115" />
+
+                    <RadioButton
+                        android:id="@+id/option2_bad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/bad"
+                        android:textColor="#ffb92d" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_hole">
+
+            <LinearLayout android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/option3"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option3"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/option3_gp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/option3_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/good"
+                        android:textColor="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/option3_excellent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/excellent"
+                        android:textColor="#4ff115" />
+
+                    <RadioButton
+                        android:id="@+id/option3_bad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/bad"
+                        android:textColor="#ffb92d" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_hole">
+
+            <LinearLayout android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/option4"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option4"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/option4_gp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/option4_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/good"
+                        android:textColor="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/option4_excellent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/excellent"
+                        android:textColor="#4ff115" />
+
+                    <RadioButton
+                        android:id="@+id/option4_bad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:text="@string/bad"
+                        android:textColor="#ffb92d" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/other_feedback"
+                android:background="@drawable/textarea"
+                android:ellipsize="end"
+                android:gravity="top|start"
+                android:hint="Other Feedback"
+                android:inputType="textMultiLine"
+                android:maxWidth="340dp"
+                android:overScrollMode="always"
+                android:scrollHorizontally="false"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:textColor="#120991"
+                android:textColorHint="#ae089a" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cancel_btn"
+                    android:onClick="cancel"
+                    android:text="Cancel"
+                    android:textAllCaps="false"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/send_btn"
+                    android:text="Send"
+                    android:textAllCaps="false"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

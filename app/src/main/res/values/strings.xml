@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StudentFeedback</string>
+    <string-array name="majors">
+        <item>Civil</item>
+        <item>EC</item>
+        <item>EP</item>
+        <item>Mech</item>
+        <item>IT</item>
+    </string-array>
+    <string-array name="years">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+    </string-array>
+    <string name="option1">သင္​ခန္​းစာမ်ားကို ​ေကာင္​းစြာျပင္​ဆင္​လာမႈ</string>
+    <string name="option2">သင္ၾကားမႈအေပၚ နားလည္မႈ</string>
+    <string name="option3">ဘာသာရပ္​အ​ေပၚ စိတ္​ဝင္​စားမႈ ျမင္​့တက္​လာ​ေစရန္​ လႈံ​႔ေဆာ္​ႏိုင္​စြမ္​း</string>
+    <string name="option4">ေက်ာင္​းသားမ်ား၏ေမးျမန္းျခင္းမ်ားအ​ေပၚ ေကာင္​းစြာတုန္​႔ျပန္​ျခင္​း</string>
+    <string name="good">အသင့္တင့္ရိွသည္</string>
+    <string name="excellent">ရိွသည္</string>
+    <string name="bad">မရိွပါ </string>
+</resources>
